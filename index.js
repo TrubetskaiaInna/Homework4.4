@@ -35,3 +35,5 @@ const passSnail = (cols, rows, c0, r0) => {
   }
   return arrResult
 }
+const testResult = passSnail(6, 5, 4, 1)
+console.log(testResult)
