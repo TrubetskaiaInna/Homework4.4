@@ -1,5 +1,5 @@
 const passSnail = (cols, rows, c0, r0) => {
-  const numberIter = Math.max(cols + rows) + rows
+  const numberIter = Math.max(cols + rows)*2
   const arrResult = []
 
   arrResult.push([r0, c0])
